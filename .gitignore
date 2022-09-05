@@ -1,0 +1,8 @@
+**/__pycache__/*
+venv/
+.git/
+.idea/
+docs/
+**/dist/
+**/build/
+**/main.spec
