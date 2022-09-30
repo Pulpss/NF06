@@ -1,0 +1,78 @@
+{
+    "project_name": "example",
+    "project_description": "uu",
+    "start_date": "01/09/2022",
+    "background_image": "",
+    "tasks": [
+        {
+            "name": "aa",
+            "description": "aa",
+            "duration": 3,
+            "min_start_date": 0,
+            "max_start_date": 0,
+            "tasks_before": [],
+            "tasks_after": [
+                "bb"
+            ],
+            "completed": false,
+            "level": 0
+        },
+        {
+            "name": "bb",
+            "description": "aa",
+            "duration": 3,
+            "min_start_date": 3,
+            "max_start_date": 3,
+            "tasks_before": [
+                "aa"
+            ],
+            "tasks_after": [
+                "cc",
+                "dd"
+            ],
+            "completed": true,
+            "level": 1
+        },
+        {
+            "name": "cc",
+            "description": "aa",
+            "duration": 4,
+            "min_start_date": 6,
+            "max_start_date": 6,
+            "tasks_before": [
+                "bb"
+            ],
+            "tasks_after": [
+                "ee"
+            ],
+            "completed": false,
+            "level": 2
+        },
+        {
+            "name": "dd",
+            "description": "aa",
+            "duration": 3,
+            "min_start_date": 6,
+            "max_start_date": 7,
+            "tasks_before": [
+                "bb"
+            ],
+            "tasks_after": [],
+            "completed": false,
+            "level": 2
+        },
+        {
+            "name": "ee",
+            "description": "aa",
+            "duration": 2,
+            "min_start_date": 10,
+            "max_start_date": 8,
+            "tasks_before": [
+                "cc"
+            ],
+            "tasks_after": [],
+            "completed": false,
+            "level": 3
+        }
+    ]
+}
