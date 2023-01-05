@@ -35,14 +35,14 @@ To build the  application you will need to run the following commands:
 
 ```bash
 cd ./PyGantt-Project/ # If you are not already in the directory
-pyinstaller src/main.py
+pyinstaller --hidden-import "babel.numbers" src/main.py
 copy src/C_lib.dll dist/main
 copy -r assets dist
 ```
 or on Linux:
 ```bash
 cd ./PyGantt-Project/ #If you are not already in the directory
-pyinstaller src/main.py
+pyinstaller --hidden-import "babel.numbers" src/main.py
 cp src/C_lib.dll dist/main
 cp -r assets dist
 ```
